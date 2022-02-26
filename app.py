@@ -10,7 +10,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open("skillslash.pkl",'rb'))
+model = pickle.load(open("Incomepredict.pkl",'rb'))
 
 @app.route('/')
 def home():
